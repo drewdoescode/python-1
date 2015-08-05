@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import random
+import colors as c
+print(c.clear + "")
+
+
+answer = input('> ')
+
+outcomes = [
+'YES',
+'NO',
+'MAYBE'
+]
+
+print(random.choice(outcomes))
+
