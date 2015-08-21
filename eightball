@@ -3,9 +3,9 @@
 import random
 import colors as c
 print(c.clear + "")
+print(c.yellow + "WELCOME TO EIGHTBALL ASK AWAY!")
 
-
-answer = input('> ')
+answer = input(c.green + '> ' + c.red)
 
 outcomes = [
 'YES',

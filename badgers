@@ -6,23 +6,23 @@ import colors as c
 while True:
     for count in range(12):
         time.sleep(0.375)
-        print("badgers")
+        print(c.violet + "badgers")
     for count in range(2):
         time.sleep(0.4)
-        print("MUSHROOM")
+        print(c.blue + "MUSHROOM")
 
     for count in range(12):
         time.sleep(0.375)
         print("badgers")
     for count in range(2):
         time.sleep(0.4)
-        print("MUSHROOM")
+        print(c.red + "MUSHROOM")
 
     for count in range(12):
         time.sleep(0.375)
-        print("badgers")
+        print(c.yellow + "badgers")
     for count in range(2):
         time.sleep(0.4)
-        print("MUSHROOM")
-        print("SNAKE SNAKE OOOOOOOOOH   ITS A SNAKEEEEE!")
+        print(c.magenta + "MUSHROOM")
+        print(c.green + "SNAKE SNAKE OOOOOOOOOH   ITS A SNAKEEEEE!")
        

@@ -18,13 +18,13 @@ def live():
     print(c.green + "Right, off you go then." + c.reset)
 
 def die():
-    print("Thou art cast into the Gorge of Eternal Peril")
+    print("you will cast into the Gorge of Eternal Peril")
 
 name = ask("What is your name? ")
 quest = ask("What is your quest? ")
 
 if name in ['lancelot','galahad']:
-    colour = ask("What is your favorite colour? ")
+    colour = ask("What is your favorite color? ")
     if colour == 'blue':
         live()
     else:
